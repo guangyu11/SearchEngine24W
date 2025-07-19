@@ -1,4 +1,4 @@
-**This repository is a copy originally from my undergraduate school github account.**  
+**This repository is a copy originally from my undergraduate school github account guangf1@uci.edu**  
 
 INF141 Assignment3 Group15
 *Guangyu Feng

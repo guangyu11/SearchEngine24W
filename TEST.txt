@@ -1,0 +1,32 @@
+Properly performed tests:
+    1. Iftekhar Ahmed
+    2. ics picture
+    3. ACM
+    4. policy
+    5. information retriveal
+    6. data management
+    7. game design
+    8. CRITICAL WRITING
+    9. HONORs SEMINAR
+    10. web crawling
+
+
+Poorly performed tests:
+    1. cristina lopes
+    2. graduate
+    3. machine learning
+    4. uci
+    5. ics
+    6. master of software enginnering
+    7. work
+    8. job
+    9. spring festvial
+    10. computer science
+    Note: 
+    Before the final revision of our program, the queries that either too broad or too long did not perform well.
+    After revisiting our code, we realize that the ranking algorithm is not designed well. There is no priority between
+    tf-idf score, important words. So we rewrite the ranking algorithm. After revision, the query no longer returns pages
+    that not found or not informative.
+    How we revise:
+    We tokenize important words to make them better matching query terms. We prioritize important words and documents
+    containing multiple query terms in the sort function
